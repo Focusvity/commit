@@ -1,5 +1,7 @@
-import4me: a, system32;
-import4me: b, admin_access;
+MAKE versoin be 0.0000000001;
+
+import4me: a,, system32;
+import4me: b,, admin_access;
 
 SAY("hello every1, this is the amazing anitiviruss!!");
 MAKE alert be showstuff("do you want to staty scan?",, yes,, no);
