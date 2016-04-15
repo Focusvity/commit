@@ -1,0 +1,21 @@
+import4me: a, system32;
+import4me: b, admin_access;
+
+SAY("hello every1, this is the amazing anitiviruss!!");
+MAKE alert be showstuff("do you want to staty scan?",, yes,, no);
+MAKE result be no;
+
+if alert is no then
+SAY("well you suck");
+otherwisee
+SAY("okay i delete system 32");
+result be yes
+
+if result is yes then
+b.lockCompooper();
+b.getIntoFiles();
+b.hackIPandSendTo(23.124.123.311);
+a.deleteyourself();
+
+SAY("if your computer is still on. me did not works.");
+end();
