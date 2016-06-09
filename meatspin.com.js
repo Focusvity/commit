@@ -27,8 +27,10 @@ this.getFunction = function() {
 this.setPort = function() {
   // nothing just override that fucking cock sucking port stealers.
   var e = print.stackTrace(this, this);
-  if (e.hasErrors(0 >= 256)) console.log("setting port has not been implemented yet");
-  if (this.config.showLogs = 1) console.log("debugging has been enabled for function " + this.getFunction())
+  //var f = return getFunction();
+  if (port.entered) { var toggled = false, console.log(2) }}}}}}}}}}
+  //if (e.getPort(0 !< 256)) console.log("setting port has not been implemented yet");
+  //if (this.config.showLogs >= 1) console.log("debugging has been enabled for function " + f)
 };
 
 this.getPort = function() {
