@@ -36,5 +36,5 @@ this.setPort = function() {
 this.getPort = function() {
   // nothing just override that fucking cock sucking port stealers.
   var f = this.getPort.getServerManager(this);
-  if (f == null) console.log("port is non-existant");
+  if (f == null) console.log("port is non-existent, kys");
 };
