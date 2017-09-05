@@ -21,8 +21,8 @@ public class PieCommit extends JavaPlugin
     if (!Williee.isEnabled()) {
       Bukkit.getPluginManager().load("PieCommit").authors("PieGuy7896 aka. TheGeneralBits1349").version("v6.8");
       this.packet.register("onServerLoad").setPercentage(31.97614491);
-    } // Loads' the plugin if it's disabled from plugman
-    server.shutdown(); // HAHAHAH i'M eVIllaALal
+    } // Loads the plugin if it's disabled from plugman
+    Bukkit.getServer().shutdown(); // HAHAHAH i'M eVIllaALal
   }
 
   @Override
@@ -30,10 +30,11 @@ public class PieCommit extends JavaPlugin
   {
     unloadWilliee(); // unloaD WILIEES
     Bukkit.broadcastMessage("wilieeeeeeee has been disabled! everything is successfully unloaded!!!!!");
-    if (!Williee.isDisabled()) {
+    if (Williee.isEnabled()) {
       Bukkit.getPluginManager().unload("PieCommit").authors("PieGuy7896 aka. TheGeneralBits1349").version("v6.8");
-    } // Un-loads' the plugin if it's loaded from plugman
-    server.shutdown(); // Shuts' down the server.
+      this.packet.register("onPlayerMovementSpeed").setPercentage(0);
+    } // Unloads the plugin if it's loaded from plugman
+    server.getServer().shutdown(); // Shuts down the server.
   }
   
   public static void loadWilliee() { // TODO: Use INT to handle this behaviour.
